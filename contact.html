@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: antiquewhite;
+            size: fixed;  
+            margin-left: 40%;
+            margin-right: 40%;    
+            margin-top: 100vh
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <form action="submit.php" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

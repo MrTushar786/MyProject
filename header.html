@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-rows: 50px 1fr 50px;
+            height: 100vh;
+        }
+        .header{
+            display: flex;
+            background-color: brown;
+            color: black;
+            justify-content: center;
+            padding: 10px;
+            align-items: center ;
+        }
+        .header button{
+            font-size: small;
+            margin: 10px;
+            padding: 10px;
+        }
+        .main{
+            display: flex;
+            background-color: blanchedalmond;
+            color: black;
+            justify-content: center;
+            align-items: center ;
+        }
+        .footer{
+            display: flex;
+            background-color: blueviolet;
+            color: red;
+            justify-content: center;
+            align-items: center ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="main">Main</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>

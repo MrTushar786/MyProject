@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.one {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line to center the content horizontally */
+    text-align: center;
+    display: flex;
+    align-items: center;   
+}
+.icon{
+    margin-left: 10px;
+    size: 10px;
+    cursor: pointer;
+}
+#para {
+    text-align: center;
+}
+.text{
+    margin: 10px;
+}
+.one input {
+    height: 10px;
+    margin-left: auto;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+}
+.all-box{
+    display: flex;
+    justify-content: center;
+}
+.box{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+margin: 10px;
+width: 350px;
+height: 350px;
+border: 1px solid black;
+justify-content: center ;
+
+}
+.box_item{
+    text-align: center;
+}
+.box1{
+    margin-top: 10px;
+    background-color: rgb(138, 202, 85);
+    color:black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+}
+.box2{
+    margin-top: 10px;
+    background-color: rgb(42, 176, 221);
+    color:black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+}
+.box3{
+    margin-top: 10px;
+    background-color: rgb(181, 113, 171);
+    color:black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:100px 100px ;
+    gap: 10px;
+    padding: 10px;
+}
+.grid-item{
+    background-color: bisque;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
